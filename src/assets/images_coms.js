@@ -27,7 +27,7 @@ import torres from "../assets/images/committees/TORRES.jpg"
 
 // comweb
 import tagolimot from "../assets/images/committees/TAGOLIMOT.png"
-import timajo from "../assets/images/committees/TIMAJO.jpg"
+import timajo from "../assets/images/committees/TIMAJO2.jpg"
 import bonita from "../assets/images/committees/BONITA.png"
 import dagcuta from "../assets/images/committees/DAGCUTA.jpg"
 import yanez from "../assets/images/committees/YAÑEZ.jpg"
