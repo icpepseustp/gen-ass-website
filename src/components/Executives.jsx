@@ -15,8 +15,8 @@ export default function Executives() {
         {images.map((img, i) => {
             return(
                 <div key={img} className='flex flex-col text-center items-center gap-2'>
-                    <img className='w-24 h-24 lg:w-32 lg:h-32 object-cover rounded-full' src={img} alt='no'/>
-                    <p className='font-bold text-xs lg:text-sm'>{data[i]["name"]}</p>
+                    <img className='w-24 h-24 lg:w-40 lg:h-40 object-cover rounded-full' src={img} alt='no'/>
+                    <p className='font-medium text-xs lg:text-lg'>{data[i]["name"]}</p>
                     <p className='italic font-light text-xs lg:text-sm'>{data[i]["position"]}</p>
                 </div>
             )
