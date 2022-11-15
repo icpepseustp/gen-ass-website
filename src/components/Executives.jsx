@@ -22,7 +22,7 @@ export default function Executives() {
             )
         })}
         </div>
-    </div>
+      </div>
     </div>
     </main>
   )
