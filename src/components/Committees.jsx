@@ -75,6 +75,7 @@ export default function Committees() {
 
         <h2 className='text-[#00EBFE] text-center mt-6 lg:mt-12 text-2xl lg:text-4xl'>COMMITTEE FOR DOCUMENTATION</h2>
         <div className='flex flex-col w-full p-8 lg:p-20'>
+<<<<<<< HEAD
           <div className='grid grid-cols-1 lg:grid-cols-1 font-poppins gap-y-10 lg:px-80'>
           {images[4]["comdoc"].slice(0,1).map((img, i) => {
               return(
@@ -91,6 +92,14 @@ export default function Committees() {
                   <div key={img} className='flex flex-col text-center items-center gap-2'>
                       <img className='w-24 h-24 lg:w-40 lg:h-40 object-cover rounded-full' src={img} alt='no'/>
                       <p className='font-medium text-xs lg:text-lg'>{data[4]["comdoc"][i+1]}</p>
+=======
+          <div className='grid grid-cols-1 lg:grid-cols-3 font-poppins gap-y-10 lg:px-80'>
+          {images[4]["comdoc"].map((img, i) => {
+              return(
+                  <div key={img} className='flex flex-col text-center items-center gap-2'>
+                      <img className='w-24 h-24 lg:w-40 lg:h-40 object-cover rounded-full' src={img} alt='no'/>
+                      <p className='font-medium text-xs lg:text-lg'>{data[4]["comdoc"][i]}</p>
+>>>>>>> b6549570b234da4b6bd261227d0878b732a306b1
                   </div>
               )
           })}
