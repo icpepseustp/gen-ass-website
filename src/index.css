@@ -1,10 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   body {
-    @apply bg-[#FAFAFA];
+    @apply bg-[#1D1547];
+    @apply text-[#FFFFFF];
     @apply w-full;
+  }
+  @font-face {
+    font-family: Mokoto Glitch;
+    src: url(../src/assets/font/Mokoto-Glitch.ttf);
   }
 }
