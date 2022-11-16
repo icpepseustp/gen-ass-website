@@ -11,8 +11,8 @@ export default function Executives() {
   return (
     <main>
     <div className='font-mokoto flex flex-col items-center'>
-      <h1 className='text-[#FF86FF] mt-10 lg:mt-20 text-4xl lg:text-6xl'>ICPEP.SE-USTP</h1>
-      <h2 className='text-[#00EBFE] mt-12 lg:mt-24 text-2xl lg:text-4xl'>THE EXECUTIVES</h2>
+      <h1 className='text-[#FF86FF] mt-10 lg:mt-20 text-2xl lg:text-6xl'>ICPEP.SE-USTP</h1>
+      <h2 className='text-[#00EBFE] mt-12 lg:mt-24 text-xl lg:text-4xl'>THE EXECUTIVES</h2>
 
       <div data-aos="fade-down" className='flex flex-col w-full p-8 lg:p-20'>
         <div className='grid grid-cols-2 lg:grid-cols-5 font-poppins gap-y-10 '>

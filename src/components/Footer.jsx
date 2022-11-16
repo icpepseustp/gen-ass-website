@@ -5,11 +5,11 @@ import { BsFacebook, BsTwitter, BsInstagram, BsDiscord } from "react-icons/bs"
 
 export default function Footer () {
     return (
-        <div className="bg-black z-[2] text-white py-12 px-4 lg:px-16 ''">
+        <div className="bg-black text-white py-12 px-4 lg:px-16 ''">
           <div className="lg:flex justify-between">
             <div className="flex flex-col">
               <div className="flex flex-col lg:flex-row justify-center items-center">
-                <img src={footerLogo} width={160} alt="icpep-footer" />
+                <img src={footerLogo} className="w-[80px] lg:w-[160px]" alt="icpep-footer" />
                 <div className="lg:my-4 mx-4">
                   <h1 className="font-semibold text-center text-xl lg:text-2xl lg:text-left">Institute of Computer Engineers of the Philippines</h1>
                   <h1 className="font-light text-center text-sm lg:text-lg lg:text-left">University of Science and Technology of Southern Philippines</h1>

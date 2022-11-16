@@ -37,7 +37,7 @@ export default function Faculty() {
     </div>
 
     <div className='font-mokoto flex flex-col items-center bg-gradient-to-b from-[#1D154F] to-[#1D15A9]'>
-      <h1 className='text-[#FF86FF] mt-10 lg:mt-20 text-2xl lg:text-5xl'>MEET THE CPE FACULTY</h1>
+      <h1 className='text-[#FF86FF] mt-10 lg:mt-20 text-xl lg:text-5xl'>MEET THE CPE FACULTY</h1>
       {/* <h2 className='text-[#00EBFE] mt-12 lg:mt-24 text-2xl lg:text-4xl'>THE EXECUTIVES</h2> */}
 
       <div className='flex flex-col w-full p-8 lg:p-20 items-center'>

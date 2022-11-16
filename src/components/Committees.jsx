@@ -49,7 +49,7 @@ export default function Committees() {
           </div>
         </div>
 
-        <h2 className='text-[#00EBFE] text-center mt-6 lg:mt-12 text-2xl lg:text-4xl'>COMMITTEE OF EXTRA-CURRICULAR ACTIVITIES</h2>
+        <h2 className='text-[#00EBFE] text-center mt-6 lg:mt-12 text-xl lg:text-4xl'>COMMITTEE OF EXTRA-CURRICULAR ACTIVITIES</h2>
         <div data-aos="fade-right" className='flex flex-col w-full p-8 lg:p-20'>
           <div className='grid grid-cols-2 lg:grid-cols-4 font-poppins gap-y-10 lg:px-40'>
           {images[2]["comea"].map((img, i) => {
@@ -63,7 +63,7 @@ export default function Committees() {
           </div>
         </div>
 
-        <h2 className='text-[#00EBFE] text-center mt-6 lg:mt-12 text-2xl lg:text-4xl'>COMMITTEE OF SPORTS</h2>
+        <h2 className='text-[#00EBFE] text-center mt-6 lg:mt-12 text-xl lg:text-4xl'>COMMITTEE OF SPORTS</h2>
         <div data-aos="fade-left" className='flex flex-col w-full p-8 lg:p-20'>
           <div className='grid grid-cols-2 lg:grid-cols-4 font-poppins gap-y-10 lg:px-40'>
           {images[3]["comspo"].map((img, i) => {
