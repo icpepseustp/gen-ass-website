@@ -5,7 +5,7 @@ import { BsFacebook, BsTwitter, BsInstagram, BsDiscord } from "react-icons/bs"
 
 export default function Footer () {
     return (
-        <div className="bg-black text-white py-12 px-4 lg:px-16 z-[10]">
+        <div className="bg-black z-[2] text-white py-12 px-4 lg:px-16 ''">
           <div className="lg:flex justify-between">
             <div className="flex flex-col">
               <div className="flex flex-col lg:flex-row justify-center items-center">
@@ -16,7 +16,7 @@ export default function Footer () {
                 </div>
               </div>
             </div>
-            <div className="flex lg:divide-x items-center flex-row lg:mr-20">
+            <div className="flex flex-col lg:divide-x items-center lg:flex-row lg:mr-20">
                 <div className="flex items-center justify-center my-6">
                   <img src={joebot} width={40} alt="joebot" />
                   <div className="my-auto ml-2 lg:text-sm font-medium">

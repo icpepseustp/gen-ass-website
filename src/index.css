@@ -9,6 +9,7 @@
     @apply bg-[#1D1547];
     @apply text-[#FFFFFF];
     @apply w-full;
+    @apply overflow-x-hidden;
   }
   @font-face {
     font-family: Mokoto Glitch;

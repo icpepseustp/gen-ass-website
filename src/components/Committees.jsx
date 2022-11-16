@@ -11,7 +11,7 @@ export default function Committees() {
   return (
     <main>
     <div className='font-mokoto flex flex-col items-center'>
-        <h2 className='text-[#00EBFE] text-center mt-6 lg:mt-12 text-2xl lg:text-4xl'>COMMITTEE OF DESIGN</h2>
+        <h2 className='text-[#00EBFE] text-center mt-6 lg:mt-40 text-2xl lg:text-4xl'>COMMITTEE OF DESIGN</h2>
         <div data-aos="fade-up" className='flex flex-col w-full p-8 lg:p-20'>
           <div className='grid grid-cols-2 lg:grid-cols-4 font-poppins gap-y-10 lg:px-40'>
           {images[0]["comdes"].map((img, i) => {
