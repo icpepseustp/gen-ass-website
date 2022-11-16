@@ -1,14 +1,18 @@
-import React from 'react'
-
+import React, { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import images from "../assets/images_coms"
 import data  from "../assets/committees.json"
 
 export default function Committees() {
+    useEffect(()=>{
+        AOS.init({duration:1000})
+      },[]);
   return (
     <main>
     <div className='font-mokoto flex flex-col items-center'>
         <h2 className='text-[#00EBFE] text-center mt-6 lg:mt-12 text-2xl lg:text-4xl'>COMMITTEE OF DESIGN</h2>
-        <div className='flex flex-col w-full p-8 lg:p-20'>
+        <div data-aos="fade-up" className='flex flex-col w-full p-8 lg:p-20'>
           <div className='grid grid-cols-2 lg:grid-cols-4 font-poppins gap-y-10 lg:px-40'>
           {images[0]["comdes"].map((img, i) => {
               return(
@@ -22,7 +26,7 @@ export default function Committees() {
         </div>
 
         <h2 className='text-[#00EBFE] text-center mt-6 lg:mt-12 text-2xl lg:text-4xl'>COMMITTEE OF ACADEMIC AFFAIRS</h2>
-        <div className='flex flex-col w-full p-8 lg:p-20'>
+        <div data-aos="fade-down"  className='flex flex-col w-full p-8 lg:p-20'>
           <div className='grid grid-cols-1 lg:grid-cols-1 font-poppins gap-y-10 lg:px-80'>
           {images[1]["comaa"].slice(0,1).map((img, i) => {
               return(
@@ -33,7 +37,7 @@ export default function Committees() {
               )
           })}
           </div>
-          <div className='grid grid-cols-2 lg:grid-cols-2 font-poppins gap-y-10 lg:px-80 mt-8'>
+          <div data-aos="fade-up" className='grid grid-cols-2 lg:grid-cols-2 font-poppins gap-y-10 lg:px-80 mt-8'>
           {images[1]["comaa"].slice(1,3).map((img, i) => {
               return(
                   <div key={img} className='flex flex-col text-center items-center gap-2'>
@@ -46,7 +50,7 @@ export default function Committees() {
         </div>
 
         <h2 className='text-[#00EBFE] text-center mt-6 lg:mt-12 text-2xl lg:text-4xl'>COMMITTEE OF EXTRA-CURRICULAR ACTIVITIES</h2>
-        <div className='flex flex-col w-full p-8 lg:p-20'>
+        <div data-aos="fade-right" className='flex flex-col w-full p-8 lg:p-20'>
           <div className='grid grid-cols-2 lg:grid-cols-4 font-poppins gap-y-10 lg:px-40'>
           {images[2]["comea"].map((img, i) => {
               return(
@@ -60,7 +64,7 @@ export default function Committees() {
         </div>
 
         <h2 className='text-[#00EBFE] text-center mt-6 lg:mt-12 text-2xl lg:text-4xl'>COMMITTEE OF SPORTS</h2>
-        <div className='flex flex-col w-full p-8 lg:p-20'>
+        <div data-aos="fade-left" className='flex flex-col w-full p-8 lg:p-20'>
           <div className='grid grid-cols-2 lg:grid-cols-4 font-poppins gap-y-10 lg:px-40'>
           {images[3]["comspo"].map((img, i) => {
               return(
@@ -74,7 +78,7 @@ export default function Committees() {
         </div>
 
         <h2 className='text-[#00EBFE] text-center mt-6 lg:mt-12 text-2xl lg:text-4xl'>COMMITTEE FOR DOCUMENTATION</h2>
-        <div className='flex flex-col w-full p-8 lg:p-20'>
+        <div data-aos="fade-up" className='flex flex-col w-full p-8 lg:p-20'>
           <div className='grid grid-cols-1 lg:grid-cols-1 font-poppins gap-y-10 lg:px-80'>
           {images[4]["comdoc"].slice(0,1).map((img, i) => {
               return(
@@ -85,7 +89,7 @@ export default function Committees() {
               )
           })}
           </div>
-          <div className='grid grid-cols-2 lg:grid-cols-2 font-poppins gap-y-10 lg:px-80 mt-8'>
+          <div data-aos="fade-down" className='grid grid-cols-2 lg:grid-cols-2 font-poppins gap-y-10 lg:px-80 mt-8'>
           {images[4]["comdoc"].slice(1,3).map((img, i) => {
               return(
                   <div key={img} className='flex flex-col text-center items-center gap-2'>
@@ -98,8 +102,8 @@ export default function Committees() {
         </div>
 
         <h2 className='text-[#00EBFE] text-center mt-6 lg:mt-12 text-2xl lg:text-4xl'>COMMITTEE FOR WEB DEVELOPMENT</h2>
-        <div className='flex flex-col w-full p-8 lg:p-20'>
-          <div className='grid grid-cols-2 lg:grid-cols-4 font-poppins gap-y-10 lg:px-40'>
+        <div data-aos="fade-down" className='flex flex-col w-full p-8 lg:p-20'>
+          <div  className='grid grid-cols-2 lg:grid-cols-4 font-poppins gap-y-10 lg:px-40'>
           {images[5]["comweb"].slice(0,4).map((img, i) => {
               return(
                   <div key={img} className='flex flex-col text-center items-center gap-2'>
@@ -109,7 +113,7 @@ export default function Committees() {
               )
           })}          
           </div>
-          <div className='grid grid-cols-1 lg:grid-cols-1 font-poppins gap-y-10 lg:px-24 mt-8'>
+          <div data-aos="fade-up" className='grid grid-cols-1 lg:grid-cols-1 font-poppins gap-y-10 lg:px-24 mt-8'>
           {images[5]["comweb"].slice(4,5).map((img, i) => {
               return(
                   <div key={img} className='flex flex-col text-center items-center gap-2'>
@@ -122,7 +126,7 @@ export default function Committees() {
         </div>
 
         <h2 className='text-[#00EBFE] text-center mt-6 lg:mt-12 text-2xl lg:text-4xl'>ICpEERS.VE LEAD</h2>
-        <div className='flex flex-col w-full p-8 lg:p-20'>
+        <div data-aos="fade-down" className='flex flex-col w-full p-8 lg:p-20'>
           <div className='grid grid-cols-1 lg:grid-cols-1 font-poppins gap-y-10 lg:px-80'>
           {images[6]["icpeers"].map((img, i) => {
               return(
