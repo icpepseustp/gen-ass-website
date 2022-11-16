@@ -13,10 +13,10 @@ export default function Faculty() {
 
     console.log(index)
 
-    if(!isShowing){
+   
       setCurrentIndex(index);
       setIsShowing(true);
-    }
+    
 
     // console.log(currentIndex)
     console.log(isShowing)

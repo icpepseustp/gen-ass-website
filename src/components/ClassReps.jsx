@@ -101,7 +101,7 @@ export default function ClassReps() {
         </div>
         </div>
         <div className='flex flex-row justify-center items-center'>
-            <img src={logo} alt="logo" className='-mb-[50px] px-12 lg:w-500 lg:-mb-[70px] flex justify-content-center'/>
+            <img src={logo} alt="logo" className='-mb-[50px] px-12 lg:w-[800px] lg:-mb-[70px] flex justify-content-center'/>
         </div>
         <img src={divider} alt="divider" className='z-[10]' />
         </main>
