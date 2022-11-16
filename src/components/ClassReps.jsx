@@ -21,7 +21,7 @@ export default function ClassReps() {
               return(
                   <div key={img} className='flex flex-col text-center items-center gap-2'>
                       <img className='w-24 h-24 lg:w-40 lg:h-40 object-cover rounded-full' src={img} alt='no'/>
-                      <p className='font-medium text-xs lg:text-lg'>{data[0]["year-1"][0]}</p>
+                      <p className='font-medium text-xs lg:text-lg'>{data[0]["year-1"][i]}</p>
                   </div>
               )
           })}
@@ -31,7 +31,8 @@ export default function ClassReps() {
               return(
                   <div key={img} className='flex flex-col text-center items-center gap-2'>
                       <img className='w-24 h-24 lg:w-40 lg:h-40 object-cover rounded-full' src={img} alt='no'/>
-                      <p className='font-medium text-xs lg:text-lg'>{data[0]["year-1"][i+1]}</p>
+                      <p className='font-medium text-xs lg:text-lg'>{data[0]["year-1"][i+4
+                     ]}</p>
                   </div>
               )
           })}
